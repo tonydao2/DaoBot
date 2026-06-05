@@ -1,0 +1,20 @@
+{
+  "name": "daobot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cdk deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1062.0",
+    "discord.js": "^14.26.4"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
